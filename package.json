@@ -1,0 +1,23 @@
+{
+  "name": "bff-with-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "keywords": [],
+  "author": "matheus martins",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.3.0",
+    "@apollo/server": "^4.10.5",
+    "@graphql-tools/mock": "^9.0.4",
+    "@graphql-tools/schema": "^10.0.4",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
